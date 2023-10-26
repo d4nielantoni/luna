@@ -39,11 +39,12 @@ header ul li {
     font-family: 'Sedgwick Ave Display', cursive;
     padding: 7px;
     flex-wrap: wrap;
-    transition: all 0.3s ease; 
+    transition: all 0.4s ease; 
 }
 .oi:hover{
     color: white;
     text-shadow: 2px 2px 2px;
+    text-decoration: line-through;
     
 }
 
@@ -163,7 +164,7 @@ body a {
     transition: all 0.3s ease; 
 }
 .fotos:hover{
-    transform:scale(1.1);
+    transform:scale(1.1);  
     /* filter: none; */
 }
 /* .rodape{
@@ -184,4 +185,11 @@ body a {
         grid-template-columns: 1fr;
     }
     
+}
+
+.info-texto{
+    font-family: 'Sedgwick Ave Display', cursive;
+    padding: 7px;
+    text-align: center;
+    margin-top: 50px;
 }
