@@ -35,9 +35,18 @@ header ul {
 header ul li {
 	list-style: none;
 }
-a{
+.oi{
     font-family: 'Sedgwick Ave Display', cursive;
+    padding: 7px;
+    flex-wrap: wrap;
 }
+.oi:hover{
+    color: white;
+    text-shadow: 2px 2px 2px;
+}
+
+
+
 /* header section {
 	display: flex;
 	align-items: center;
@@ -161,10 +170,10 @@ body a {
 } */
 
 
-.oi{
+/* .oi{
     padding: 7px;
     flex-wrap: wrap;
-}
+} */
 
 @media screen and (max-width: 768px){
 
