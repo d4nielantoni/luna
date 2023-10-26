@@ -39,10 +39,12 @@ header ul li {
     font-family: 'Sedgwick Ave Display', cursive;
     padding: 7px;
     flex-wrap: wrap;
+    transition: all 0.3s ease; 
 }
 .oi:hover{
     color: white;
     text-shadow: 2px 2px 2px;
+    
 }
 
 
