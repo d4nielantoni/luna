@@ -157,8 +157,8 @@ body a {
     padding: 5px;
     object-fit: cover;
     box-sizing: border-box;
-    border: 2px solid #ffd000;
-    box-shadow: 1px 1px 1px;
+    /* border: 2px solid #ffd000; */
+    /* box-shadow: 1px 1px 1px; */
     flex-grow: 1;
     justify-content:space-around;
     display: flex;
@@ -197,4 +197,31 @@ body a {
     padding: 7px;
     text-align: center;
     margin-top: 50px;
+}
+
+.info-foto{
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    object-fit:contain;
+    flex-wrap: wrap;
+    
+}
+.foto-luna{
+    width: 500px;
+    height: auto;
+}
+.info-luna{
+    display:block;
+    text-align: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+    margin-top: 40px;
+}
+@media screen and (max-width: 768px){
+
+    .foto-luna{
+        width: 300px;
+        height: auto;
+        text-align: center;
+    }
 }
